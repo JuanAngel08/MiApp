@@ -1,0 +1,265 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+/*Caracteristicas del  body degradado fondo*/
+body{
+background: #4b6cb7; 
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+background: linear-gradient(to right, #182848, #4b6cb7); 
+
+
+}
+#Titulo-logo{
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+/*Caracteristicas del  navbar*/
+#Titulo-logo:hover{
+  color:yellow;
+}
+.navbar {
+    margin-bottom: 0;
+  
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important; 
+    letter-spacing: 4px;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    height: 100px; 
+  }
+  /*Color de letra general del navbar*/
+  .navbar li a, .navbar .navbar-brand {
+     
+    color: rgb(255, 255, 255) !important;
+ 
+  }
+  /*Color de la letra en el hover */
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+   /* color:#182848!important;*/
+    color: /*rgb(255, 255, 255)*/ #182848 !important;
+    background-color: /*#f4511e*/ yellow !important;
+    border-radius: 15px; 
+  }
+   /*Borde del navbar */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: rgb(255, 255, 255) !important;
+  }
+  /*Color del fondo del  dropdown */
+#dropdown-menu{
+    background-color:  #182848d2;
+    border-radius: 8px;
+}
+  /*Color de letra en el dropdown*/
+  .dropdown li a {
+    color: #ffffff !important;
+  }
+  .navbar-default .navbar-nav>.open>a.dropdown-toggle{
+    background-color:/* #f4511e*/ yellow !important;
+
+    
+   
+  }
+  /*  Section caja general*/
+  #Caja_general{
+    margin-bottom: 2.5em;
+   padding: 6em 0;
+   margin: 2em 0 0 0;
+  /* background: linear-gradient(to right, yellow, #ffffff);  */
+ /* background-image:url(./Img/pexels-pixabay-39693.jpg) ; */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: cover;
+ background-position: center;
+  }
+/*carousel1*/
+
+#carousel1{
+  margin-bottom: 2.5em;
+  padding:12em;
+  margin: 0px;
+
+/* background-image:url(./Img/pexels-pixabay-39693.jpg) ; */
+background-color: yellow;
+background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+}
+/*Silueta oscura sobre el carousel*/
+/* #carousel1::before,#carousel2::before,#carousel3::before{
+  content:"" ;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background:#020000;
+opacity: 50%;
+} */
+
+  /*Caja de mensaje*/
+#Titulo{
+  color: white;
+  align-items: center;
+  display: flex;
+  height: -100px;
+  justify-content: center;
+}
+#Mensaje{
+  /* color: #f4511e;*/
+  color:white;
+  font-size: 1.2em;
+
+  align-items: center;
+  display: flex;
+  height: 5px;
+  justify-content: center;
+    
+  }
+
+  #caja_texto{
+    background-color: #182848d2;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-align:auto;
+    backdrop-filter: blur(3px);
+    padding: 0;    
+    position: relative;
+    top: -20px;
+    width: 950px;
+    height: 300px;
+  }
+
+  /* logo Aliados */
+#aliado{
+  position: relative;
+  margin-left: 100px;
+  margin-right: auto;
+  top: 40px;
+  width: 170px;
+}
+
+#aliado2{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -95px;
+  width: 170px;
+}
+
+#aliado3{
+  position: relative;
+  margin-left: auto;
+  margin-right: 100px;
+  top: -230px;
+  width: 170px;
+}
+
+#aliado4{
+  position: relative;
+  margin-left: 100px;
+  margin-right: auto;
+  top: 30px;
+  width: 170px;
+}
+
+#aliado5{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -140px;
+  width: 170px;
+}
+
+#aliado6{
+  position: relative;
+  margin-left: auto;
+  margin-right: 100px;
+  top: -310px;
+  width: 170px;
+}
+
+/* Boton flotante de whatsapp*/
+ .container-boton{
+	position:fixed;
+	right: 25px;
+	bottom: 25px;
+  z-index: 1000 !important; /* Poner las cosas por encima de otras 0  por debajo  -100 por encima*/
+    
+}
+#boton_whatsapp{
+	display: block;
+	text-decoration: none;
+	background: #00c721;
+    color: #fff;
+	height: 50px;
+	width: 50px;
+	line-height: 49px;
+	text-align: center;
+	border-radius: 50%;
+	transition: ease 0.9s;
+	animation: efecto 1.5s infinite;
+
+ 
+}
+
+#boton_whatsapp:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+
+
+
+}
+@keyframes efecto{
+0%{
+  
+	box-shadow:0 0 0 5px rgba(24, 238, 5, 0.85);
+}
+100%{
+	box-shadow: 0 0 0 1px rgba(20, 23, 212, 0);
+}
+}
+
+
+/* Tarjetas por independiente*/ 
+.col-sm-3{
+margin-right: 0%;
+margin-bottom: 2%;
+}
+
+  /*Footer*/
+/* iconos redes sociales footer*/
+#btn-redes{
+
+
+  cursor: pointer;
+  color: white;
+  border-color: #fff;
+  background-image: linear-gradient(to right,  transparent 0%,  #f4511e 100%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition:background-position .6s ease;
+  }
+  #btn-redes:hover{
+   background-position: right;
+  }
+ 
+#Titulo{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 35px;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}

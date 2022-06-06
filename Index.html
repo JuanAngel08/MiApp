@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css-->
+    <link rel="stylesheet" href="Styles/Style.css" type="text/css" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />   
+    <!--FontAwesome--> 
+    <script src="https://kit.fontawesome.com/1cf5a60052.js" crossorigin="anonymous"></script>
+    <title>TapiRepuestos</title>
+
+  </head>
+  <body>
+    
+     <!--Boton flotante Whatsapp-->
+    <div class="container-boton">
+      <a href=" https://wa.me/573203864856" target="_blank"class="fa-brands fa-whatsapp fa-2xl" id="boton_whatsapp"></a>
+    </div>
+    
+<!--Header-->
+<div class="container-fluid">
+    <section class="header" >
+      <h1 id="Titulo-logo"><a   id="Titulo-logo"href="index.html" >TapiRepuestos</a></h1>
+      <div class="lineaHeader"></div>
+      <div class="container-fluid" >
+        <nav class="navbar navbar-expand-lg navbar-light" >
+          <div class="container-fluid" >
+            
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto mb-2 mb-1g-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarScrollingDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nuestros Productos
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarScrollingDropdown"
+                    id="dropdown-menu"
+                  >
+                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                    <li><a class="dropdown-item" href="Index.html#footer">Repuestos</a></li>
+                    <li><a class="dropdown-item" href="Index.html#container-aceites">Aceites</a></li>
+                    <li><a class="dropdown-item" href="Index.html#section-llantas">Llantas</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./Quienes_Somos.HTML">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Quienes_Somos.html#Section-encuentranos">Encuentranos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Aliados.html">Nuestros aliados</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </div>
+<!--Carrousel-->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <!-- CAROUSEL 1-->  
+      <div class="carousel-item active"  data-bs-interval="4000">
+        
+        <img src="" id="carousel1" class="d-block w-100 " alt="..." >
+        
+        <div class="carousel-caption d-none d-md-block">
+
+              <!--CAJA DE TEXTO CAROUSEL 1-->  
+          <section id="caja_texto">
+            <div id="texto">
+              <h1 id="Titulo">TapiRepuestos</h1>
+              <h5 id="Mensaje">Calidad y Confianza</h5>
+            </div>
+          </section>
+          </div> 
+
+      </div>
+      <!-- CAROUSEL 2-->  
+      <div class="carousel-item"   data-bs-interval="4000">
+        <img src="" class="d-block w-100" id="carousel2" alt="...">
+          <!--Caja de texto 2-->
+        <div class="carousel-caption d-none d-md-block">
+        <div id="Caja_texto_carosuel2">
+          <h1 id="Titulo_carousel2">Encuentra tus llantas favoritas </h1>
+          <button  id="button_llantas" type="" class=""><a href="Index.html#section-llantas">Aqui</a></button>
+        </div>
+      </div>
+      </div>
+
+      <!-- CAROUSEL 3-->  
+      <div class="carousel-item"  data-bs-interval="4000">
+        <img  class="d-block w-100" id="carousel3"  alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--Espacio Aceites-->
+<div id="Section-aceites-diagonal">
+<div class="container" id="container-aceites">
+  <!--Fila 1-->
+<div id="espacio-aceites" class="row">
+  <h1>Aceites</h1>
+  <hr/>
+  <div  class="col-sm-6">
+    <div  id="card" class="card">
+      <div  id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-castrol.jpg" alt="">
+        <h5 class="card-title">CASTROL</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div id="card" class="card">
+      <div id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Yamalube.png" alt="">
+        <h5 class="card-title">YAMALUBE</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr/>
+<!--Fila 2-->
+<div  id="espacio-aceites" class="row">
+  <div class="col-sm-6">
+    <div id="card" class="card">
+      <div id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Mobil.png" alt="">
+        <h5 class="card-title">MOBIL</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div  class="col-sm-6">
+    <div id="card" class="card">
+      <div id="tarjeta-especifica"class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Shell.jpg" alt="">
+        <h5 class="card-title">SHELL</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr/>
+<!--Fila 3-->
+<div  id="espacio-aceites" class="row">
+  <div class="col-sm-6">
+    <div  id="card" class="card">
+      <div id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Honda.png" alt="">
+        <h5 class="card-title">HONDA</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div  id="card" class="card">
+      <div id="tarjeta-especifica" class="card-body">
+        <img  id="img-bajaj"src="./Styles/Img/Aceites/Lubricante-bajaj.png" alt="">
+        <h5 class="card-title">BAJAJ</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<hr/>
+<!--Fila 4-->
+<div  id="espacio-aceites" class="row">
+  <div class="col-sm-6">
+    <div id="card" class="card">
+      <div id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Motul.png" alt="">
+        <h5 class="card-title">MOTUL</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div id="card" class="card">
+      <div  id="tarjeta-especifica" class="card-body">
+        <img src="./Styles/Img/Aceites/Lubricante-Celerity.png" alt="">
+        <h5 class="card-title">CELERITY</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div><hr/>
+</div>
+</div>
+
+
+</div>
+<!--Espacio Llantas-->
+
+<div  id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div    id="section-llantas" class="carousel-inner">
+    <h1 id="Titulo-Llantas">Llantas</h1>
+    <hr/>
+    <div class="lineaAceites"></div>
+    <!--Carousel1 Pireli-->
+    <div class="carousel-item active">
+    <div class="row" id="row-llantas">
+      <h2 id="Titulo-Categoria">PIRELI</h2>
+      <!--Tarjeta 1-->
+      <div class="col-sm-3" >
+        <div  href="section-llantas" id="tarjeta" class="card" style="width: 18rem;">
+          <img  src="./Styles/Img/Llantas/Pirelli/CityAngel.jpg" alt="">
+          <div class="card-body">   
+            <h5 class="card-title">PIRELI CITY ÁNGEL</h5>
+            <p class="card-text">Dispoible en medidas de:
+              <li>
+               150/60/R17 
+              </li>
+              <li>
+                160/60/R17 
+               </li>
+               <li>
+                180/55/R17 
+               </li>
+            </p>
+           
+          </div>
+        </div>
+      </div>
+      <!--Tarjeta 2-->
+      <div class="col-sm-3">
+        <div id="tarjeta" class="card" style="width: 18rem;">
+          <img src="./Styles/Img/Llantas/Pirelli/SportDemon.PNG" alt="">
+          <div class="card-body">   
+            <h5 class="card-title">PIRELI SPORT DEMON</h5>
+            <p class="card-text">Dispoible en medidas de:
+              <li>
+               150/60/R17 
+              </li>
+              <li>
+                160/60/R17 
+               </li>
+               <li>
+                180/55/R17 
+               </li>
+            </p>  
+          </div>
+        </div>
+      </div>
+      <!--Tarjeta 3-->
+      <div class="col-sm-3">
+        <div id="tarjeta" class="card" style="width: 18rem;">
+          <img src="./Styles/Img/Llantas/Pirelli/Diablo-Rosso.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">PIRELI DIABLO ROSSO</h5>
+            <p class="card-text">Dispoible en medidas de:
+              <li>
+               150/60/R17 
+              </li>
+              <li>
+                160/60/R17 
+               </li>
+               <li>
+                180/55/R17 
+               </li>
+            </p>    
+          </div>
+        </div>
+      </div>
+      <!--Tarjeta 4-->
+      <div class="col-sm-3">
+        <div id="tarjeta" class="card" style="width: 18rem;">
+          <img src="./Styles/Img/Llantas/Pirelli/Diablo-Rosso3.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">PIRELI DIABLO ROSSO 3</h5>
+            <p class="card-text">Dispoible en medidas de:
+              <li>
+               150/60/R17 
+              </li>
+              <li>
+                160/60/R17 
+               </li>
+               <li>
+                180/55/R17 
+               </li>
+            </p>  
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--Carousel 2 IRC-->
+    <div class="carousel-item">
+      <div class="row" id="row-llantas">
+        <h2 id="Titulo-Categoria">IRC</h2>
+        <!--Tarjeta 1-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div  class="card-body">   
+              <h5 class="card-title">IRC </h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 2-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">   
+              <h5 class="card-title">IRC </h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 3-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">IRC</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 4-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">IRC</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Carousel 3 MRF-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">MRF</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">MRF </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">MRF </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">MRF </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">MRF</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Carousel 4 CHAOYAN-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">CHAOYAN</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">CHAOYAN </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">CHAOYAN</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">CHAOYAN </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">CHAOYAN</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Carousel 5 EUROGRIP-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">EUROGRIP</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">EUROGRIP </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">EUROGRIP </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">EUROGRIP</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">EUROGRIP</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Carousel 6 TVS-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">TVS</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">TVS</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">TVS</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">TVS</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">TVS</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Carousel 7 MAGK-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">MAGK</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">MAGK</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">MAGK</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">MAGK</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">MAGK</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Carousel 8 VEERUBER-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">VEERUBER</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">VEERUBER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">VEERUBER </h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">VEERUBER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">VEERUBER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Carousel 9 RIDER-->
+<div class="carousel-item">
+  <div class="row" id="row-llantas">
+    <h2 id="Titulo-Categoria">RIDER</h2>
+    <!--Tarjeta 1-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div  class="card-body">   
+          <h5 class="card-title">RIDER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 2-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">   
+          <h5 class="card-title">RIDER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 3-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">RIDER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <!--Tarjeta 4-->
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">RIDER</h5>
+          <p class="card-text">Dispoible en medidas de:
+            <li>
+             150/60/R17 
+            </li>
+            <li>
+              160/60/R17 
+             </li>
+             <li>
+              180/55/R17 
+             </li>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Carousel 10 DUNLOP-->
+    <div class="carousel-item">
+      <div class="row" id="row-llantas">
+        <h2 id="Titulo-Categoria">DUNLOP</h2>
+        <!--Tarjeta 1-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div  class="card-body">   
+              <h5 class="card-title"> DUNLOP</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 2-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">   
+              <h5 class="card-title">DUNLOP</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 3-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title"> DUNLOP</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 4-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Dunlop</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!--Carousel 11 MICHELIN-->
+     <div class="carousel-item">
+      <div class="row" id="row-llantas">
+        <h2 id="Titulo-Categoria">MICHELIN</h2>
+        <!--Tarjeta 1-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">   
+              <h5 class="card-title">MICHELIN </h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 2-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">   
+              <h5 class="card-title">MICHELIN</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 3-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">MICHELIN</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p> 
+            </div>
+          </div>
+        </div>
+        <!--Tarjeta 4-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./Styles/Img/Llantas/Bridgestone/bridgestone-Battalx T30.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">MICHELIN</h5>
+              <p class="card-text">Dispoible en medidas de:
+                <li>
+                 150/60/R17 
+                </li>
+                <li>
+                  160/60/R17 
+                 </li>
+                 <li>
+                  180/55/R17 
+                 </li>
+              </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+ <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Titulo Footer -->
+  <div class="container p-4">
+    <h2>TapiRepuestos</h2>
+    <div class="lineaAceites"></div>
+    <!-- Texto -->
+    <section   class="mb-4">
+      <p>
+       Calidad y servicio en cada uno de nuestros repuestos y accesorios.
+      </p>
+    </section>
+    <!-- Informacion -->
+    <section class="">
+      <div class="row">
+        <!--Direccion-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 id="TituloFooter"  class="text-uppercase">Direccion</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <p >
+                Carrera 4#11-26<br />
+                Espinal,Tolima<br />
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!--Telefono-->
+        <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
+          <h5 id="TituloFooter" class="text-uppercase">Telefono</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <p >(320) 386-4856</p>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Redes-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 id="TituloRedes">Redes</h5>
+          <!-- Seccion de botones -->
+        <section class="mb-4">
+         <!-- Facebook -->
+         <a  id ="btn-redes"class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+         ></a>
+      <!-- Google -->
+      <a   id ="btn-redes" class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+      <!-- Whatsapp -->
+      <a id ="btn-redes" class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i   class="fab fa-whatsapp"></i
+      ></a>
+    </section>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
+  </div>
+</footer>
+
+
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  
+  
+
+</hody>
+  </body>
+</html>

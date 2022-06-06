@@ -1,0 +1,424 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+/*Caracteristicas del  body degradado fondo*/
+body{
+background: #4b6cb7; 
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+background: linear-gradient(to right, #182848, #4b6cb7); 
+
+
+}
+#Titulo-logo{
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+/*Caracteristicas del  navbar*/
+#Titulo-logo:hover{
+  color:yellow;
+}
+.navbar {
+    margin-bottom: 0;
+  
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important; 
+    letter-spacing: 4px;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    height: 100px; 
+  }
+  /*Color de letra general del navbar*/
+  .navbar li a, .navbar .navbar-brand {
+     
+    color: rgb(255, 255, 255) !important;
+ 
+  }
+  /*Color de la letra en el hover */
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+   /* color:#182848!important;*/
+    color: /*rgb(255, 255, 255)*/ #182848 !important;
+    background-color: /*#f4511e*/ yellow !important;
+    border-radius: 15px; 
+  }
+   /*Borde del navbar */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: rgb(255, 255, 255) !important;
+  }
+  /*Color del fondo del  dropdown */
+#dropdown-menu{
+    background-color:  #182848d2;
+    border-radius: 8px;
+}
+  /*Color de letra en el dropdown*/
+  .dropdown li a {
+    color: #ffffff !important;
+  }
+  .navbar-default .navbar-nav>.open>a.dropdown-toggle{
+    background-color:/* #f4511e*/ yellow !important;
+
+    
+   
+  }
+  /*  Section caja general*/
+  #Caja_general{
+    margin-bottom: 2.5em;
+   padding: 6em 0;
+   margin: 2em 0 0 0;
+  background: linear-gradient(to right, /*#f4511e*/yellow, #ffffff); 
+ background-image:url(./Img/pexels-pixabay-39693.jpg) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: cover;
+ background-position: center;
+  }
+/*carousel1*/
+
+#carousel1{
+  margin-bottom: 2.5em;
+  padding:12em;
+  margin: 0px;
+
+background-image:url(./Img/pexels-pixabay-39693.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+}
+/*Silueta oscura sobre el carousel*/
+#carousel1::before,#carousel2::before,#carousel3::before{
+  content:"" ;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background:#020000;
+opacity: 50%;
+}
+   /*Caja de mensaje*/
+   #Titulo{
+    color: white;
+    align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+    
+  }
+  #Mensaje{
+     /* color: #f4511e;*/
+      color:yellow;
+      font-size: 1.2em;
+
+  align-items: center;
+  display: flex;
+  height: 5px;
+  justify-content: center;
+    
+  }
+
+  #caja_texto{
+    background-color: #182848d2;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-align:auto;
+    backdrop-filter: blur(3px);
+    padding: 0;    
+    position: relative;
+    top: -80px;
+    width: 500px;
+    height: 180px;
+  }
+/*carousel 2*/
+#carousel2{
+ 
+  padding:12em;
+  margin: 0px;
+
+background-image:url(./Img/pexels-susuki-muchacha.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+
+}
+/*  caja texto carousel2*/ 
+#Caja_texto_carosuel2{
+  background-color: #f8f8f88f;
+  border-radius: 4%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align:auto;
+  padding: 0;    
+    position: relative;
+    top: -80px;
+  backdrop-filter: blur(3px);
+  text-align: center;
+    text-align:auto;
+    width: 500px;
+    height: 180px;
+}
+
+
+/*button llantas dentro del carousel 2*/
+#button_llantas {
+
+border:none;
+cursor: pointer;
+border-radius: 13%;
+width: 20%;
+height: 25%;
+color: white;
+background-image: linear-gradient(to right,  #182848, #4b6cb7 50%,  /*#f4511e */ rgb(251, 255, 0) 50%);
+background-size: 200%;
+background-repeat: no-repeat;
+background-position: left;
+transition:background-position .6s ease;
+}
+#button_llantas a{
+  color: white;
+  text-decoration: none;
+}
+#button_llantas a:hover{
+  color:#182848;
+}
+#button_llantas:hover{
+ background-position: right;
+ 
+ 
+}
+#carousel3{
+  padding:12em;
+  margin: 0px;
+  background-image: url(./Img/pexels-enduro-saltando.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+top:50px;
+left:-15px;
+}
+
+
+ /* Boton flotante de whatsapp*/
+ .container-boton{
+	position:fixed;
+	right: 25px;
+	bottom: 25px;
+  z-index: 1000 !important; /* Poner las cosas por encima de otras 0  por debajo  -100 por encima*/
+  
+	
+  
+}
+#boton_whatsapp{
+	display: block;
+	text-decoration: none;
+	background: #00c721;
+    color: #fff;
+	height: 50px;
+	width: 50px;
+	line-height: 49px;
+	text-align: center;
+	border-radius: 50%;
+	transition: ease 0.9s;
+	animation: efecto 1.5s infinite;
+
+ 
+}
+
+#boton_whatsapp:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+
+
+
+}
+@keyframes efecto{
+0%{
+  
+	box-shadow:0 0 0 5px rgba(24, 238, 5, 0.85);
+}
+100%{
+	box-shadow: 0 0 0 1px rgba(20, 23, 212, 0);
+}
+}
+
+
+
+
+
+ /*section aceites*/
+  /*  Titulo section aceites*/
+ #espacio-aceites h1{
+  margin-bottom: 3%;
+  margin-left: Auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+
+ }
+ #espacio-aceites h5{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: Auto;
+  margin-right: auto;
+  text-align: center;
+ }
+ #espacio-aceites img{
+   width: 65%;
+ 
+ }
+ #tarjeta-especifica{
+ 
+ background-color:#e5e3e27e;
+ backdrop-filter: blur(4px);
+ margin: 0%;
+ border-radius: 15%;
+ margin-left: Auto;
+ margin-right: auto;
+ text-align: center;
+}
+#card{
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+  background-color: transparent;
+  
+}
+
+ #espacio-aceites img:hover, #tarjeta-especifica:hover{
+   filter:drop-shadow(0 0 20px #b3b9c5d2 );
+ }
+ /*Espacio aceites*/
+#espacio-aceites{
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 0%;
+  padding-top: 4%;
+  
+}
+
+
+#container-aceites{
+  background-color:#ffffff3b;
+  background-image: url(./Img/Fondo-aceites.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-position: center;
+padding-bottom: 10%;
+
+}
+.lineaAceites{
+   
+  width: 920px;
+  border-radius: 10%;
+
+  height: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right, #f4511e, #ffffff); 
+  margin-bottom: 30px;
+}
+
+/*  LLantas */
+#Titulo-Llantas{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: Auto;
+  margin-right: Auto;
+  text-align: center;
+  color: #ffffff;
+
+}
+#Titulo-Categoria
+{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: Auto;
+  text-align: center;
+  color: #ffffff;
+}
+/* Espacio de carrousel*/
+#row-llantas{
+ 
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 4%;
+
+ 
+  border-color: #fff;
+  background-image: linear-gradient(to right,  #182848d2 50%,yellow /* #f4511e*/ 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition:background-position .6s ease;
+
+}
+#row-llantas:hover{
+  background-position: right;
+}
+
+/* Tarjetas por independiente*/ 
+.col-sm-3{
+margin-right: 0%;
+margin-bottom: 2%;
+}
+
+ 
+
+
+  /*Footer*/
+/* iconos redes sociales footer*/
+#btn-redes{
+
+
+  cursor: pointer;
+  color: white;
+  border-color: #fff;
+  background-image: linear-gradient(to right,  transparent 0%,  #f4511e 100%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition:background-position .6s ease;
+  }
+  #btn-redes:hover{
+   background-position: right;
+  }
+ 
+#Titulo{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 35px;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+  
+
+ 
+
+ 
+
+
+  
+
+
